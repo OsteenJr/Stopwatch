@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+main {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+main div {
+    font-size: 4em;
+    margin: 0;
+}
+main button {
+    padding: 10px 15px;
+   cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: .3em;
+
+}
+#stopBtn {
+    background-color: hsl(0, 87%, 57%);
+}
+#stopBtn:hover {
+    background-color: hsl(0, 87%, 37%);
+}
+#startBtn {
+    background-color: hsl(120, 72%, 42%);
+}
+#startBtn:hover {
+    background-color: hsl(120, 72%, 32%);
+}
+
+#resetBtn {
+    background-color: hsl(240, 78%, 50%);
+}
+#resetBtn:hover {
+    background-color: hsl(240, 78%, 70%);;
+}
